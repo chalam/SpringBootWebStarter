@@ -1,0 +1,6 @@
+security:
+  user:
+    password: test123
+logging:
+  level:
+    org.springframework.security: DEBUG
