@@ -1,6 +1,6 @@
 # SpringBootWebStarter
-1) Sampler from http://spring.io
-2) Added web security and angularjs
+# Sampler from http://spring.io
+# Added web security and angularjs
 
 Steps
 * brew install gradle
