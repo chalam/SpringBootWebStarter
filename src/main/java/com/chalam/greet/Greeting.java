@@ -1,4 +1,4 @@
-package com.chalam;
+package com.chalam.greet;
 
 /**
  * Created by chalam on 5/6/15.

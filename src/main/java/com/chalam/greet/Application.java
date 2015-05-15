@@ -1,4 +1,4 @@
-package com.chalam;
+package com.chalam.greet;
 
 import org.joda.time.LocalTime;
 import org.springframework.boot.SpringApplication;
