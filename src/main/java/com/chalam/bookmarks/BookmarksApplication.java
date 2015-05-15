@@ -30,8 +30,7 @@ public class BookmarksApplication {
     @Bean
     CommandLineRunner init(AccountRepository accountRepository,
                            BookmarkRepository bookmarkRepository) {
-        return (evt) -> Arrays.asList(
-                "jhoeller,dsyer,pwebb,ogierke,rwinch,mfisher,mpollack,jlong".split(","))
+        return (evt) -> Arrays.asList("jhoeller,dsyer,pwebb,ogierke,rwinch,mfisher,mpollack,jlong".split(","))
                 .forEach(
                         a -> {
                             Account account = accountRepository.save(new Account(a,
